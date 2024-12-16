@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Bank . Create</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/header_logo.png.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/header_logo.png.jpeg" alt="">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="create.html">Create</a>
+            <a href="deposite.html">Deposite</a>
+            <a href="withdraw.html">Withdraw</a>
+            <a href="balance.html">Balance Amount</a>
+            <a href="all_details.html">All details</a>
+        </nav>
+    </header>
+    <div class="create_bg">
+        <div class="create">
+            <div class="create_inputs">
+                <input type="text" placeholder="Enter the Name" id="create_name"> <br><br>
+                <input type="email" placeholder="Enter the Email" id="create_email"> <br><br>
+                <input type="password" placeholder="password" id="create_pass">
+            </div>
+            <div class="create_buttons">
+                <button onclick="create()">Create Account</button>
+                <button onclick="another()">Add Another Account</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="detail" id="data_details">
+
+        <ul id="craete_detail">
+            <li class="craete_details">
+                <p id="name"></p>
+                <p id="email"></p>
+                <p id="password"></p>
+            </li>
+
+        </ul>
+        
+    </div>
+    
+    <footer>
+        &copy;2024 Indian bank .
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
